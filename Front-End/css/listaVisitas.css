@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+:root{
+    --pure-black: #000000;
+    --off-white: #F2F2F2;
+    --gray: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#container-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#container-logo img{
+    width: 350px;    
+}
+
+#container-txt{
+    font-weight: bold;
+    display: flex;
+    margin-left: 100px;
+}
+
+#table {
+    width: 85%;
+    height: 350px;
+    background-color: white;    
+    margin-left: 90px;
+    border: 2px solid black;
+}
+
+#myTable {
+    font-family: Ubuntu;
+    width: 98%;
+    margin-left: 20px;
+    border-collapse: collapse;
+}
+
+#myTable th {
+    background-color: white);
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#myTable td, th{
+    border: 1px solid white);
+    padding: 8px;
+}
+
+#myTable td{
+    padding: 5px;
+}
+
+#myTable tr:nth-child(even) {
+    background-color: white;
+}
+
+#myTable tr:hover {
+    background-color: white;
+}
+
+#container-btn{
+    display: flex;    
+    margin-top: 50px;   
+    justify-content: center;
+    align-items: center;
+}
+
+#container-btn button{
+    width: 200px;
+    height: 25px;
+    background-color: var(--gray);
+    /* color: var(--gray); */
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#icons{
+    background-color: red;
+}
+

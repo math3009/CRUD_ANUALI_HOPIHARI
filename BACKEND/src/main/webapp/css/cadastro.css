@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+:root{
+    --pure-black: #000000;
+    --off-white: #F2F2F2;
+    --gray: #D9D9D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#container-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+#container-logo #logoHopi img {
+    width: 350px;
+}
+
+
+#container-logo #imgPerson img {
+    width: 150px;
+    
+}
+
+#imgPerson button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#container-put{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;   
+    margin-top: 50px; 
+}
+
+#container-put input{
+    background-color: var(--gray);
+    border-color: transparent;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#container-put input:focus{
+    background-color: var(--gray);
+    border-color: transparent;
+    border-radius: 3px;
+    height: 20px;
+}
+
+#container-put label{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#form-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    width: 300px;
+}
+
+#form-right{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-date{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#container-btn{
+    display: flex;
+    justify-content: space-evenly;     
+    margin-top: 60px;   
+}
+
+#container-btn a input{
+    width: 200px;
+    height: 25px;
+    background-color: var(--gray);
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none
+}
+
+ 
